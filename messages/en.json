@@ -1,6 +1,154 @@
 {
   "common": {
     "signIn": "Sign In",
-    "signUp": "Sign Up"
+    "signUp": "Sign Up",
+    "readMore": "Read more",
+    "contactMe": "Contact me",
+    "bookSession": "Book session"
+  },
+  "navigation": {
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing", 
+    "faq": "FAQ"
+  },
+  "hero": {
+    "tagline": "Dive into the Subconscious",
+    "headline": "Transform Your Mind, Transform Your Life",
+    "subheadline": "Gentle hypnotherapy to reshape beliefs, habits & confidence",
+    "description": "Hypnotherapy works with the subconscious mind, the part of you where old patterns, habits, thoughts, and emotions are stored.",
+    "cta": "Book free consultation"
+  },
+  "about": {
+    "headline": "What is Hypnotherapy?",
+    "description": "Hypnotherapy is a psychological treatment method that uses hypnosis as a tool to work with deep-rooted emotional and behavioral patterns.",
+    "process": {
+      "title": "How it works",
+      "points": [
+        "Safe and relaxed state where you remain fully aware",
+        "Working with deeper beliefs and patterns",
+        "Gentle release of internal blockages",
+        "You don't lose control - you regain it"
+      ]
+    }
+  },
+  "therapist": {
+    "headline": "About Me",
+    "name": "Erna",
+    "title": "Certified Hypnotherapist",
+    "description": "Hi, I'm Erna, a certified hypnotherapist and founder of Indblik. I graduated from Denmark's leading and award-winning hypnosis school.",
+    "mission": "My mission is to help individuals gently unlearn the unconscious, limiting patterns instilled in childhood, so they can reconnect with their true selves.",
+    "experience": "For over a decade, I've dedicated myself to inner exploration, uncovering, understanding, and transforming my own patterns and beliefs."
+  },
+  "services": {
+    "headline": "What Can Hypnotherapy Help With?",
+    "mental": {
+      "title": "Emotional and mental well-being",
+      "items": [
+        "Anxiety and nervousness",
+        "Stress and burnout",
+        "Low mood or emotional heaviness",
+        "Low self-esteem or lack of confidence",
+        "Overthinking and sleep disturbances",
+        "Inner restlessness or unease"
+      ]
+    },
+    "behavioral": {
+      "title": "Habits and behavior",
+      "items": [
+        "Smoking cessation and other addictions",
+        "Emotional eating and sugar cravings",
+        "Procrastination and avoidance patterns",
+        "Negative thought loops and self-criticism",
+        "Performance anxiety or stage fright"
+      ]
+    },
+    "physical": {
+      "title": "Body and mind connection",
+      "items": [
+        "Pain management (chronic or acute)",
+        "Irritable Bowel Syndrome (IBS)",
+        "Tension and psychosomatic symptoms",
+        "Headaches and migraines (as a supplement)"
+      ]
+    },
+    "development": {
+      "title": "Personal growth and self-development",
+      "items": [
+        "Accessing inner resources and clarity",
+        "Working through limiting childhood patterns or trauma",
+        "Strengthening self-awareness and intuition",
+        "Life direction and personal insight",
+        "Improving boundaries and relationships"
+      ]
+    }
+  },
+  "pricing": {
+    "headline": "My Hypnotherapy Services",
+    "subtitle": "Whether you're seeking support for a specific issue or want to explore deeper transformation",
+    "whatsIncluded": "What's included",
+    "noObligation": "No obligation or commitment required",
+    "mostPopular": "Most popular",
+    "intro": {
+      "title": "Introductory call",
+      "duration": "Free / 15 minutes",
+      "description": "A short phone or Zoom conversation to answer your questions and see if we're a good fit.",
+      "features": {
+        "conversation": "15-minute conversation",
+        "questions": "Questions answered", 
+        "chemistry": "Chemistry check",
+        "call": "Phone or Zoom call"
+      }
+    },
+    "single": {
+      "title": "Single Session",
+      "price": "1,200 DKK",
+      "duration": "~75 minutes",
+      "description": "A focused, one-on-one session tailored to your current needs. Ideal for working with a specific challenge or gaining clarity."
+    },
+    "package": {
+      "title": "5-Session Method – Deep Inner Work",
+      "price": "5,000 DKK",
+      "savings": "You save 1,000 DKK by booking a full process",
+      "description": "A transformational journey over five sessions, designed to go deeper into unconscious patterns, childhood imprints, emotional release, and reconnection with your true self.",
+      "note": "Perfect if you're ready for meaningful and lasting change."
+    },
+    "booking": {
+      "title": "Booking & Payment",
+      "location": "All sessions take place at my office in Randers C or online.",
+      "payment": "Payment is made via MobilePay or bank transfer after booking.",
+      "confirmation": "You'll receive all details and confirmation by email."
+    }
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is hypnotherapy?",
+        "answer": "Hypnotherapy is a therapeutic approach where we work with the subconscious mind to create deep and lasting change. It takes place in a relaxed, focused state - similar to when you daydream. You remain conscious and in control throughout."
+      },
+      {
+        "question": "Is hypnosis dangerous?",
+        "answer": "No, hypnosis is a natural and completely safe state that we all experience daily - for example, just before falling asleep or when absorbed in a good book. In therapy, you're in a safe environment and gently guided throughout."
+      },
+      {
+        "question": "Do I lose control during hypnosis?",
+        "answer": "No, not at all. You remain yourself and can open your eyes or speak up at any time. Hypnotherapy isn't about 'taking over' you - but about helping you connect more deeply with yourself."
+      },
+      {
+        "question": "Does hypnotherapy work for everyone?",
+        "answer": "Most people can benefit greatly from hypnotherapy - especially if they're open and curious. You don't need to 'believe in hypnosis' to see results, but collaboration and a desire for change are important."
+      },
+      {
+        "question": "How does it feel to be in hypnosis?",
+        "answer": "Most people describe it as deep relaxation, peace, and inward focus. Some feel light, others heavy - it's very individual. The important thing is that you always feel safe and part of the process."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Hypnotherapy practice in Randers, Denmark"
+  },
+  "contact": {
+    "headline": "Ready to begin your transformation?"
   }
 }

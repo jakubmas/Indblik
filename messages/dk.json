@@ -1,6 +1,154 @@
 {
   "common": {
     "signIn": "Log ind",
-    "signUp": "Tilmeld dig"
+    "signUp": "Tilmeld dig",
+    "readMore": "Læs mere",
+    "contactMe": "Kontakt mig",
+    "bookSession": "Book session"
+  },
+  "navigation": {
+    "about": "Om mig",
+    "services": "Ydelser",
+    "pricing": "Priser", 
+    "faq": "FAQ"
+  },
+  "hero": {
+    "tagline": "Dyk ned i det underbevidste",
+    "headline": "Transform dit sind, transform dit liv",
+    "subheadline": "Blid hypnoterapi til at omforme overbevisninger, vaner og selvtillid",
+    "description": "Hypnoterapi arbejder med det ubevidste sind, den del af dig, hvor gamle mønstre, vaner, tanker og følelser ligger gemt.",
+    "cta": "Book gratis introsamtale"
+  },
+  "about": {
+    "headline": "Hvad er hypnoterapi?",
+    "description": "Hypnoterapi er en psykologisk behandlingsform, hvor man anvender hypnose som redskab til at arbejde med dybereliggende mentale og følelsesmæssige mønstre.",
+    "process": {
+      "title": "Sådan fungerer det",
+      "points": [
+        "Tryg og afslappet tilstand hvor du stadig er fuldt bevidst",
+        "Arbejde med dybereliggende overbevisninger",
+        "Forløsning af indre blokeringer på en nænsom måde",
+        "Du mister ikke kontrollen - tværtimod får du den tilbage"
+      ]
+    }
+  },
+  "therapist": {
+    "headline": "Om mig",
+    "name": "Erna",
+    "title": "Certificeret hypnoterapeut",
+    "description": "Hej, jeg hedder Erna, og jeg er certificeret hypnoterapeut og stifter af Indblik. Jeg er uddannet fra Danmarks førende og prisvindende hypnoseskole.",
+    "mission": "Min mission med klinikken er at hjælpe mennesker med nænsomt at aflære de ubevidste og begrænsende mønstre, som ofte er grundlagt i barndommen.",
+    "experience": "I over et årti har jeg arbejdet intensivt med mig selv, med at forstå, bearbejde og forandre de mønstre og overbevisninger, jeg selv bar på."
+  },
+  "services": {
+    "headline": "Hvad kan hypnoterapi hjælpe med?",
+    "mental": {
+      "title": "Mentalt og følelsesmæssigt",
+      "items": [
+        "Angst og uro",
+        "Stress og udbrændthed",
+        "Nedtrykthed og tristhed",
+        "Lavt selvværd og selvtillid",
+        "Tankemylder og søvnproblemer",
+        "Indre uro og rastløshed"
+      ]
+    },
+    "behavioral": {
+      "title": "Adfærd og vaner",
+      "items": [
+        "Rygestop og andre afhængigheder",
+        "Overspisning og sukkertrang",
+        "Overspringshandlinger og prokrastination",
+        "Negative tankemønstre og selvkritik",
+        "Præstationsangst eller sceneskræk"
+      ]
+    },
+    "physical": {
+      "title": "Krop og psykosomatik",
+      "items": [
+        "Smertehåndtering (kroniske eller akutte smerter)",
+        "Irritabel tyktarm (IBS)",
+        "Spændinger og psykosomatiske symptomer",
+        "Hovedpine og migræne (som supplement)"
+      ]
+    },
+    "development": {
+      "title": "Personlig udvikling",
+      "items": [
+        "Mere kontakt til dine indre ressourcer",
+        "Bearbejdning af gamle mønstre og traumer",
+        "Styrket intuition og selvforståelse",
+        "Livsafklaring og personlig retning",
+        "Bedre grænsesætning og relationer"
+      ]
+    }
+  },
+  "pricing": {
+    "headline": "Priser og booking", 
+    "subtitle": "Uanset om du ønsker hjælp til et konkret problem eller søger dybere forandring",
+    "whatsIncluded": "Hvad er inkluderet",
+    "noObligation": "Ingen forpligtelse eller binding påkrævet",
+    "mostPopular": "Mest populære",
+    "intro": {
+      "title": "Gratis introsamtale",
+      "duration": "15 minutter",
+      "description": "Et kort telefonopkald eller Zoom-møde, hvor du kan stille spørgsmål og mærke, om kemien passer.",
+      "features": {
+        "conversation": "15-minutters samtale",
+        "questions": "Spørgsmål besvaret",
+        "chemistry": "Kemi-tjek",
+        "call": "Telefon eller Zoom-opkald"
+      }
+    },
+    "single": {
+      "title": "Enkeltsession",
+      "price": "1.200 kr.",
+      "duration": "ca. 75 minutter",
+      "description": "En fokuseret, individuel session tilpasset dine aktuelle behov. God til et specifikt emne eller som første skridt i et længere forløb."
+    },
+    "package": {
+      "title": "5-sessioners forløb – Indre forandringsrejse",
+      "price": "5.000 kr.",
+      "savings": "Du sparer 1.000 kr. ved at booke hele forløbet",
+      "description": "Et dybdegående forløb over fem sessioner, hvor vi arbejder med ubevidste mønstre, barndomsprægninger, følelsesmæssig forløsning og kontakt til dit autentiske selv.",
+      "note": "For dig der er klar til reel og varig forandring."
+    },
+    "booking": {
+      "title": "Booking & Betaling",
+      "location": "Sessionerne foregår i min klinik i Randers C eller online.",
+      "payment": "Betaling sker via MobilePay eller bankoverførsel.",
+      "confirmation": "Du modtager bekræftelse og praktisk info via mail."
+    }
+  },
+  "faq": {
+    "headline": "Ofte stillede spørgsmål",
+    "questions": [
+      {
+        "question": "Hvad er hypnoterapi?",
+        "answer": "Hypnoterapi er en terapiform, hvor vi arbejder med det ubevidste sind for at skabe dyb og varig forandring. Det foregår i en afslappet, fokuseret tilstand – lidt som når du dagdrømmer. Du er hele tiden bevidst og i kontrol."
+      },
+      {
+        "question": "Er hypnose farligt?",
+        "answer": "Nej, hypnose er en naturlig og helt ufarlig tilstand, som vi alle oplever dagligt – for eksempel lige før vi falder i søvn eller når vi forsvinder ind i en god bog. I terapien er du i trygge rammer og bliver guidet nænsomt hele vejen."
+      },
+      {
+        "question": "Mister jeg kontrollen under hypnose?",
+        "answer": "Nej, slet ikke. Du er stadig dig selv og kan til enhver tid åbne øjnene eller sige fra. Hypnoterapi handler ikke om at 'overtage' dig – men om at hjælpe dig med at komme i dybere kontakt med dig selv."
+      },
+      {
+        "question": "Virker hypnoterapi på alle?",
+        "answer": "De fleste kan have stor gavn af hypnoterapi – især hvis man er åben og nysgerrig. Du behøver ikke 'tro på hypnose' for at få effekt, men et samarbejde og et ønske om forandring er vigtigt."
+      },
+      {
+        "question": "Hvordan føles det at være i hypnose?",
+        "answer": "De fleste beskriver det som dyb afslapning, ro og indadvendt fokus. Nogle føler sig lette, andre tunge – det er meget individuelt. Det vigtigste er, at du altid er tryg og med i processen."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Hypnoterapipraksis i Randers, Danmark"
+  },
+  "contact": {
+    "headline": "Klar til at begynde din transformation?"
   }
 }

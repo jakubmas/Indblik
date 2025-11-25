@@ -10,6 +10,23 @@ export default {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        '1155/678': '1155 / 678',
+        '1097/845': '1097 / 845',
+      },
+      width: {
+        '144.5': '36.125rem',
+        '274.25': '68.5625rem',
+        '288.75': '72.1875rem',
+      },
+      spacing: {
+        '200': '50rem',
+      },
+      backgroundImage: {
+        'linear-to-tr':
+          'linear-gradient(to top right, var(--tw-gradient-stops))',
+        'linear-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
