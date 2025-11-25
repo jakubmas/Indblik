@@ -15,11 +15,21 @@ const inter = Inter({
 
 // TODO : Update metadata when creating home page
 export const metadata: Metadata = {
-  title: 'Papalem - Event Management',
+  title: 'Indblik - Hypnotherapy practice in Randers, Denmark',
   description:
-    'Professional event management platform for creating and managing events',
-  keywords: ['events', 'management', 'platform', 'papalem'],
-  authors: [{ name: 'Papalem Team' }],
+    'Professional hypnotherapy and mental wellbeing services in Randers, Denmark — specializing in anxiety relief, smoking cessation, stress management, and personal growth.',
+  keywords: [
+    'hypnotherapy',
+    'therapy',
+    'mental health',
+    'wellbeing',
+    'Randers',
+    'Denmark',
+    'anxiety',
+    'smoking cessation',
+    'stress management',
+  ],
+  authors: [{ name: 'Indblik' }],
 };
 
 export const viewport = {
