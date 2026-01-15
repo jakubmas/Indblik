@@ -65,8 +65,8 @@ export function LocaleProvider({ children, messages }: LocaleProviderProps) {
   );
 
   return (
-    <NextIntlClientProvider 
-      messages={currentMessages} 
+    <NextIntlClientProvider
+      messages={currentMessages}
       locale={detectedLocale}
       timeZone="Europe/Copenhagen"
     >
