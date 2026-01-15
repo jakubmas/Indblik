@@ -4,31 +4,31 @@
     "signUp": "Sign Up",
     "readMore": "Read more",
     "contactMe": "Contact me",
-    "bookSession": "Book session"
+    "bookSession": "Book appointment"
   },
   "navigation": {
     "about": "About",
     "services": "Services",
-    "pricing": "Pricing", 
+    "pricing": "Pricing",
     "faq": "FAQ"
   },
   "hero": {
-    "tagline": "Dive into the Subconscious",
-    "headline": "Transform Your Mind, Transform Your Life",
-    "subheadline": "Gentle hypnotherapy to reshape beliefs, habits & confidence",
-    "description": "Hypnotherapy works with the subconscious mind, the part of you where old patterns, habits, thoughts, and emotions are stored.",
+    "tagline": "A calm and safe space",
+    "headline": "Welcome to Indblik",
+    "subheadline": "Hypnotherapy in Randers - gain insight and understanding of what already exists within you",
+    "description": "At Indblik, you'll find a calm and safe space where there's room for you exactly as you are. It's not about being fixed or changed, but about gaining insight and understanding.",
     "cta": "Book free consultation"
   },
   "about": {
-    "headline": "What is Hypnotherapy?",
-    "description": "Hypnotherapy is a psychological treatment method that uses hypnosis as a tool to work with deep-rooted emotional and behavioral patterns.",
+    "headline": "What is Hypnosis",
+    "description": "Hypnosis is a natural state of deep calm and focused attention. Many experience it as pleasant relaxation, where thoughts settle and attention turns inward. You remain conscious and in full control throughout. You can speak, move, and make choices.",
     "process": {
-      "title": "How it works",
+      "title": "How Hypnotherapy Can Help",
       "points": [
-        "Safe and relaxed state where you remain fully aware",
-        "Working with deeper beliefs and patterns",
-        "Gentle release of internal blockages",
-        "You don't lose control - you regain it"
+        "Stress, anxiety, or unease",
+        "Low self-worth or inner criticism",
+        "Recurring patterns that are hard to break",
+        "Sleep problems or inner tensions"
       ]
     }
   },
@@ -36,88 +36,89 @@
     "headline": "About Me",
     "name": "Erna",
     "title": "Certified Hypnotherapist",
-    "description": "Hi, I'm Erna, a certified hypnotherapist and founder of Indblik. I graduated from Denmark's leading and award-winning hypnosis school.",
-    "mission": "My mission is to help individuals gently unlearn the unconscious, limiting patterns instilled in childhood, so they can reconnect with their true selves.",
-    "experience": "For over a decade, I've dedicated myself to inner exploration, uncovering, understanding, and transforming my own patterns and beliefs."
+    "description": "My name is Erna, and I am a certified hypnotherapist. I have deep respect for people's inner processes and for the strength we each carry, even when we've lost touch with it.",
+    "mission": "My mission with Indblik is to support people in gently releasing unconscious and limiting patterns that often form early in life.",
+    "experience": "I work calmly, with presence, and with great attention to safety. My motivation comes from a lifelong fascination with the hidden layers of the mind and the deep power that lies in the unconscious."
   },
   "services": {
-    "headline": "What Can Hypnotherapy Help With?",
+    "headline": "Hypnotherapy can support you if you experience",
     "mental": {
-      "title": "Emotional and mental well-being",
+      "title": "Mental and Emotional",
       "items": [
-        "Anxiety and nervousness",
-        "Stress and burnout",
-        "Low mood or emotional heaviness",
-        "Low self-esteem or lack of confidence",
-        "Overthinking and sleep disturbances",
-        "Inner restlessness or unease"
+        "Stress, anxiety, or unease",
+        "Low self-worth or inner criticism",
+        "Recurring patterns that are hard to break",
+        "Sleep problems or inner tensions",
+        "Pain or physical symptoms without clear cause",
+        "A desire for personal growth and greater self-understanding"
       ]
     },
     "behavioral": {
-      "title": "Habits and behavior",
+      "title": "A Safe Partnership",
       "items": [
-        "Smoking cessation and other addictions",
-        "Emotional eating and sugar cravings",
-        "Procrastination and avoidance patterns",
-        "Negative thought loops and self-criticism",
-        "Performance anxiety or stage fright"
+        "With me, the relationship is important",
+        "Change happens best when you feel seen, heard, and understood",
+        "We go at your pace with respect for your boundaries",
+        "You don't need to explain everything",
+        "We find the answers together"
       ]
     },
     "physical": {
-      "title": "Body and mind connection",
+      "title": "The Sessions",
       "items": [
-        "Pain management (chronic or acute)",
-        "Irritable Bowel Syndrome (IBS)",
-        "Tension and psychosomatic symptoms",
-        "Headaches and migraines (as a supplement)"
+        "Take place in calm surroundings in Randers",
+        "Start with a conversation",
+        "Gentle guidance into hypnosis",
+        "You can always open your eyes or speak during",
+        "No expectations that something specific must happen"
       ]
     },
     "development": {
-      "title": "Personal growth and self-development",
+      "title": "The Work is Based On",
       "items": [
-        "Accessing inner resources and clarity",
-        "Working through limiting childhood patterns or trauma",
-        "Strengthening self-awareness and intuition",
-        "Life direction and personal insight",
-        "Improving boundaries and relationships"
+        "Your pace and your needs",
+        "Individual processes - no standard solutions",
+        "Respect for your inner processes",
+        "Collaboration where you are the expert in your life",
+        "Support to find your own answers"
       ]
     }
   },
   "pricing": {
-    "headline": "My Hypnotherapy Services",
-    "subtitle": "Whether you're seeking support for a specific issue or want to explore deeper transformation",
+    "headline": "Get Started",
+    "subtitle": "Take the first step toward change - you don't need to be ready, just curious",
     "whatsIncluded": "What's included",
-    "noObligation": "No obligation or commitment required",
+    "noObligation": "Free and no obligation",
     "mostPopular": "Most popular",
     "intro": {
-      "title": "Introductory call",
-      "duration": "Free / 15 minutes",
-      "description": "A short phone or Zoom conversation to answer your questions and see if we're a good fit.",
+      "title": "Free Intro Conversation",
+      "duration": "No obligation",
+      "description": "If you're curious but unsure whether hypnotherapy is right for you, I offer a free and no-obligation introductory conversation. Here you can ask questions, feel things out, and get a sense of whether Indblik is a place where you feel safe.",
       "features": {
-        "conversation": "15-minute conversation",
-        "questions": "Questions answered", 
-        "chemistry": "Chemistry check",
-        "call": "Phone or Zoom call"
+        "conversation": "No-obligation conversation",
+        "questions": "Ask questions and get answers",
+        "chemistry": "Feel if the chemistry is right",
+        "call": "Clarify your needs"
       }
     },
     "single": {
       "title": "Single Session",
-      "price": "1,200 DKK",
-      "duration": "~75 minutes",
-      "description": "A focused, one-on-one session tailored to your current needs. Ideal for working with a specific challenge or gaining clarity."
+      "price": "From 800 DKK",
+      "duration": "60-90 minutes",
+      "description": "A session starts with a conversation where we together sense what's present for you. Then you're gently guided into hypnosis, if it feels right for you."
     },
     "package": {
-      "title": "5-Session Method – Deep Inner Work",
-      "price": "5,000 DKK",
-      "savings": "You save 1,000 DKK by booking a full process",
-      "description": "A transformational journey over five sessions, designed to go deeper into unconscious patterns, childhood imprints, emotional release, and reconnection with your true self.",
-      "note": "Perfect if you're ready for meaningful and lasting change."
+      "title": "Session Package",
+      "price": "Contact for price",
+      "savings": "Customized process tailored to your needs",
+      "description": "For those who wish to work deeper with their patterns and create lasting change. Together we create a plan that fits your pace and your needs.",
+      "note": "Hypnotherapy at Indblik is a collaboration."
     },
     "booking": {
-      "title": "Booking & Payment",
-      "location": "All sessions take place at my office in Randers C or online.",
-      "payment": "Payment is made via MobilePay or bank transfer after booking.",
-      "confirmation": "You'll receive all details and confirmation by email."
+      "title": "Contact",
+      "location": "Sessions take place in calm surroundings in Randers.",
+      "payment": "You're welcome to contact me if you have questions or wish to book a conversation.",
+      "confirmation": "You don't need to be ready. It's enough to be curious."
     }
   },
   "faq": {
@@ -149,6 +150,6 @@
     "description": "Hypnotherapy practice in Randers, Denmark"
   },
   "contact": {
-    "headline": "Ready to begin your transformation?"
+    "headline": "Indblik is a place for calm, honesty, and change at your own pace"
   }
 }

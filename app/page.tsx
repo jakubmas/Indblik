@@ -10,6 +10,7 @@ import {
   SparklesIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
@@ -27,7 +28,12 @@ export default function HomePage() {
     { name: t('navigation.about'), href: '#about' },
     { name: t('navigation.services'), href: '#services' },
     { name: t('navigation.faq'), href: '#faq' },
-    { name: t('common.contactMe'), href: '#contact' },
+    {
+      name: t('common.contactMe'),
+      href: 'https://system.easypractice.net/book/inblik-hypnose',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    },
   ];
 
   const processFeatures = [
@@ -133,12 +139,17 @@ export default function HomePage() {
             className="flex items-center justify-between py-6"
           >
             <div className="flex lg:flex-1">
-              <button type="button" className="-m-1.5 p-1.5">
+              <div className="-m-1.5 p-1.5">
                 <span className="sr-only">Indblik</span>
-                <div className="h-8 w-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">I</span>
-                </div>
-              </button>
+                <Image
+                  src="/logo.svg"
+                  alt="Indblik Hypnoterapi logo - Certificeret hypnoterapeut i Randers"
+                  width={200}
+                  height={70}
+                  className="h-16 w-auto"
+                  priority
+                />
+              </div>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -155,6 +166,8 @@ export default function HomePage() {
                 <a
                   key={item.name}
                   href={item.href}
+                  target={item.target}
+                  rel={item.rel}
                   className="text-sm/6 font-semibold text-gray-900"
                 >
                   {item.name}
@@ -174,12 +187,17 @@ export default function HomePage() {
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <button type="button" className="-m-1.5 p-1.5">
+              <div className="-m-1.5 p-1.5">
                 <span className="sr-only">Indblik</span>
-                <div className="h-8 w-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">I</span>
-                </div>
-              </button>
+                <Image
+                  src="/logo.svg"
+                  alt="Indblik Hypnoterapi logo - Certificeret hypnoterapeut i Randers"
+                  width={200}
+                  height={70}
+                  className="h-16 w-auto"
+                  priority
+                />
+              </div>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -196,6 +214,8 @@ export default function HomePage() {
                     <a
                       key={item.name}
                       href={item.href}
+                      target={item.target}
+                      rel={item.rel}
                       onClick={() => setMobileMenuOpen(false)}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
@@ -216,7 +236,10 @@ export default function HomePage() {
 
       <main>
         {/* Hero section */}
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <section
+          className="relative isolate px-6 pt-14 lg:px-8"
+          aria-labelledby="hero-heading"
+        >
           <div
             aria-hidden="true"
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -243,7 +266,10 @@ export default function HomePage() {
               </div>
             </div>
             <div className="text-center">
-              <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+              <h1
+                id="hero-heading"
+                className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl"
+              >
                 {t('hero.headline')}
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
@@ -252,18 +278,14 @@ export default function HomePage() {
               <p className="mt-6 text-lg/8 text-gray-700">
                 {t('hero.description')}
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-10 flex items-center justify-center">
                 <a
-                  href="#contact"
+                  href="https://system.easypractice.net/book/inblik-hypnose"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   {t('hero.cta')}
-                </a>
-                <a
-                  href="#about"
-                  className="text-sm/6 font-semibold text-gray-900"
-                >
-                  Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
@@ -280,12 +302,19 @@ export default function HomePage() {
               className="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"
             />
           </div>
-        </div>
+        </section>
 
         {/* About section */}
-        <div id="about" className="mx-auto mt-16 max-w-7xl px-6 lg:px-8">
+        <section
+          id="about"
+          className="mx-auto mt-16 max-w-7xl px-6 lg:px-8"
+          aria-labelledby="about-heading"
+        >
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base/7 font-semibold text-indigo-600">
+            <h2
+              id="about-heading"
+              className="text-base/7 font-semibold text-indigo-600"
+            >
               {t('about.headline')}
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
@@ -312,19 +341,25 @@ export default function HomePage() {
               ))}
             </dl>
           </div>
-        </div>
+        </section>
 
         {/* Therapist section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
+        <section
+          className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8"
+          aria-labelledby="therapist-heading"
+        >
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-4">
-              <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                <img
-                  alt="Erna"
-                  src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2147&q=80"
-                  className="absolute inset-0 size-full object-cover brightness-125 saturate-0"
+              <div className="relative overflow-hidden rounded-3xl bg-gray px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                <Image
+                  alt="Erna - Certificeret hypnoterapeut og grundlægger af Indblik Hypnoterapi i Randers"
+                  src="/images/erna.jpg"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                 />
-                <div className="absolute inset-0 bg-gray-900 mix-blend-multiply" />
+                {/* <div className="absolute inset-0 bg-pink-100 mix-blend-multiply" /> */}
                 <div
                   aria-hidden="true"
                   className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl"
@@ -355,9 +390,12 @@ export default function HomePage() {
                 <p className="text-base/7 font-semibold text-indigo-600">
                   {t('therapist.headline')}
                 </p>
-                <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                <h2
+                  id="therapist-heading"
+                  className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+                >
                   {t('therapist.name')}
-                </h1>
+                </h2>
                 <div className="max-w-xl">
                   <p className="mt-6">{t('therapist.description')}</p>
                   <p className="mt-8">{t('therapist.experience')}</p>
@@ -366,15 +404,19 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* Services section */}
-        <div
+        <section
           id="services"
           className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8"
+          aria-labelledby="services-heading"
         >
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base/7 font-semibold text-indigo-600">
+            <h2
+              id="services-heading"
+              className="text-base/7 font-semibold text-indigo-600"
+            >
               {t('navigation.services')}
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
@@ -409,12 +451,13 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Pricing section */}
-        <div
+        <section
           id="pricing"
           className="relative isolate bg-white py-24 sm:py-32 lg:py-40"
+          aria-labelledby="pricing-heading"
         >
           <div
             aria-hidden="true"
@@ -430,7 +473,10 @@ export default function HomePage() {
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h2 className="text-base/7 font-semibold text-indigo-600">
+              <h2
+                id="pricing-heading"
+                className="text-base/7 font-semibold text-indigo-600"
+              >
                 {t('navigation.pricing')}
               </h2>
               <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
@@ -499,7 +545,9 @@ export default function HomePage() {
                       </span>
                     </p>
                     <a
-                      href="#contact"
+                      href="https://system.easypractice.net/book/inblik-hypnose"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       {t('hero.cta')}
@@ -580,7 +628,9 @@ export default function HomePage() {
                       </ul>
                     </div>
                     <a
-                      href="#contact"
+                      href="https://system.easypractice.net/book/inblik-hypnose"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-describedby={tier.id}
                       className={classNames(
                         tier.mostPopular
@@ -595,12 +645,15 @@ export default function HomePage() {
                 ))}
             </div>
           </div>
-        </div>
+        </section>
 
         {/* FAQ section */}
-        <div id="faq" className="bg-white">
+        <section id="faq" className="bg-white" aria-labelledby="faq-heading">
           <div className="mx-auto max-w-7xl px-6 pb-24 sm:pb-32 lg:px-8 lg:pb-40">
-            <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <h2
+              id="faq-heading"
+              className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+            >
               {t('faq.headline')}
             </h2>
             <dl className="mt-20 divide-y divide-gray-900/10">
@@ -619,10 +672,14 @@ export default function HomePage() {
               ))}
             </dl>
           </div>
-        </div>
+        </section>
 
         {/* Contact section */}
-        <div id="contact" className="relative isolate px-6 lg:px-8">
+        <section
+          id="contact"
+          className="relative isolate px-6 lg:px-8"
+          aria-labelledby="contact-heading"
+        >
           <div
             aria-hidden="true"
             className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
@@ -636,7 +693,10 @@ export default function HomePage() {
             />
           </div>
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <h2
+              id="contact-heading"
+              className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+            >
               {t('contact.headline')}
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
@@ -644,7 +704,9 @@ export default function HomePage() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="mailto:erna@indblik.dk"
+                href="https://system.easypractice.net/book/inblik-hypnose"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 {t('hero.cta')}
@@ -655,19 +717,20 @@ export default function HomePage() {
               <p>{t('pricing.booking.confirmation')}</p>
             </div>
           </div>
-        </div>
+        </section>
       </main>
 
       {/* Footer */}
       <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8">
         <div className="border-t border-gray-900/10 py-16">
           <div className="flex items-center justify-center">
-            <div className="h-9 w-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-              <span className="text-white font-bold">I</span>
-            </div>
-            <span className="ml-3 text-xl font-semibold text-gray-900">
-              Indblik
-            </span>
+            <Image
+              src="/logo.svg"
+              alt="Indblik Hypnoterapi - Professionel hypnoterapi i Randers, Danmark"
+              width={220}
+              height={80}
+              className="h-20 w-auto"
+            />
           </div>
           <p className="mt-4 text-center text-sm text-gray-600">
             {t('footer.description')}

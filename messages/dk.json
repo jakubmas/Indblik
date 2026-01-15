@@ -4,31 +4,31 @@
     "signUp": "Tilmeld dig",
     "readMore": "Læs mere",
     "contactMe": "Kontakt mig",
-    "bookSession": "Book session"
+    "bookSession": "Book tid"
   },
   "navigation": {
     "about": "Om mig",
     "services": "Ydelser",
-    "pricing": "Priser", 
+    "pricing": "Priser",
     "faq": "FAQ"
   },
   "hero": {
-    "tagline": "Dyk ned i det underbevidste",
-    "headline": "Transform dit sind, transform dit liv",
-    "subheadline": "Blid hypnoterapi til at omforme overbevisninger, vaner og selvtillid",
-    "description": "Hypnoterapi arbejder med det ubevidste sind, den del af dig, hvor gamle mønstre, vaner, tanker og følelser ligger gemt.",
+    "tagline": "Et roligt og trygt rum",
+    "headline": "Velkommen til Indblik",
+    "subheadline": "Hypnoterapi i Randers - skab indblik og forståelse for det, der allerede findes i dig",
+    "description": "Hos Indblik møder du et roligt og trygt rum, hvor der er plads til dig præcis, som du er. Her handler det ikke om at skulle fixes eller laves om, men om at skabe indblik og forståelse.",
     "cta": "Book gratis introsamtale"
   },
   "about": {
-    "headline": "Hvad er hypnoterapi?",
-    "description": "Hypnoterapi er en psykologisk behandlingsform, hvor man anvender hypnose som redskab til at arbejde med dybereliggende mentale og følelsesmæssige mønstre.",
+    "headline": "Hvad er hypnose",
+    "description": "Hypnose er en naturlig tilstand af dyb ro og fokuseret opmærksomhed. Mange oplever den som en behagelig afslapning, hvor tankerne falder til ro, og opmærksomheden vender indad. Du er hele tiden bevidst og har fuld kontrol. Du kan tale, bevæge dig og sige til og fra.",
     "process": {
-      "title": "Sådan fungerer det",
+      "title": "Hvordan hypnoterapi kan hjælpe",
       "points": [
-        "Tryg og afslappet tilstand hvor du stadig er fuldt bevidst",
-        "Arbejde med dybereliggende overbevisninger",
-        "Forløsning af indre blokeringer på en nænsom måde",
-        "Du mister ikke kontrollen - tværtimod får du den tilbage"
+        "Stress, uro eller angst",
+        "Lavt selvværd eller indre kritik",
+        "Gentagende mønstre, du har svært ved at bryde",
+        "Søvnproblemer eller indre spændinger"
       ]
     }
   },
@@ -36,88 +36,89 @@
     "headline": "Om mig",
     "name": "Erna",
     "title": "Certificeret hypnoterapeut",
-    "description": "Hej, jeg hedder Erna, og jeg er certificeret hypnoterapeut og stifter af Indblik. Jeg er uddannet fra Danmarks førende og prisvindende hypnoseskole.",
-    "mission": "Min mission med klinikken er at hjælpe mennesker med nænsomt at aflære de ubevidste og begrænsende mønstre, som ofte er grundlagt i barndommen.",
-    "experience": "I over et årti har jeg arbejdet intensivt med mig selv, med at forstå, bearbejde og forandre de mønstre og overbevisninger, jeg selv bar på."
+    "description": "Mit navn er Erna, og jeg er certificeret hypnoterapeut. Jeg har en dyb respekt for menneskers indre processer og for den styrke, vi hver især rummer, også når vi har mistet kontakten til den.",
+    "mission": "Min mission med Indblik er at støtte mennesker i blidt at give slip på de ubevidste og begrænsende mønstre, som ofte tager form tidligt i livet.",
+    "experience": "Jeg arbejder roligt, nærværende og med stor opmærksomhed på tryghed. Min motivation udspringer af en livslang fascination af sindets skjulte lag og den dybe kraft, der ligger i det ubevidste."
   },
   "services": {
-    "headline": "Hvad kan hypnoterapi hjælpe med?",
+    "headline": "Hypnoterapi kan støtte dig, hvis du oplever",
     "mental": {
       "title": "Mentalt og følelsesmæssigt",
       "items": [
-        "Angst og uro",
-        "Stress og udbrændthed",
-        "Nedtrykthed og tristhed",
-        "Lavt selvværd og selvtillid",
-        "Tankemylder og søvnproblemer",
-        "Indre uro og rastløshed"
+        "Stress, uro eller angst",
+        "Lavt selvværd eller indre kritik",
+        "Gentagende mønstre, du har svært ved at bryde",
+        "Søvnproblemer eller indre spændinger",
+        "Smerter eller kropslige symptomer uden klar årsag",
+        "Et ønske om personlig udvikling og større selvforståelse"
       ]
     },
     "behavioral": {
-      "title": "Adfærd og vaner",
+      "title": "Et trygt samarbejde",
       "items": [
-        "Rygestop og andre afhængigheder",
-        "Overspisning og sukkertrang",
-        "Overspringshandlinger og prokrastination",
-        "Negative tankemønstre og selvkritik",
-        "Præstationsangst eller sceneskræk"
+        "Hos mig er relationen vigtig",
+        "Forandring sker bedst, når du føler dig set, hørt og forstået",
+        "Vi går i dit tempo og med respekt for dine grænser",
+        "Du behøver ikke kunne forklare alting",
+        "Vi finder svarene sammen"
       ]
     },
     "physical": {
-      "title": "Krop og psykosomatik",
+      "title": "Sessionerne",
       "items": [
-        "Smertehåndtering (kroniske eller akutte smerter)",
-        "Irritabel tyktarm (IBS)",
-        "Spændinger og psykosomatiske symptomer",
-        "Hovedpine og migræne (som supplement)"
+        "Foregår i rolige omgivelser i Randers",
+        "Starter med en samtale",
+        "Blid guidning ind i hypnose",
+        "Du kan altid åbne øjnene eller tale undervejs",
+        "Ingen forventninger om at noget bestemt skal ske"
       ]
     },
     "development": {
-      "title": "Personlig udvikling",
+      "title": "Arbejdet tager udgangspunkt i",
       "items": [
-        "Mere kontakt til dine indre ressourcer",
-        "Bearbejdning af gamle mønstre og traumer",
-        "Styrket intuition og selvforståelse",
-        "Livsafklaring og personlig retning",
-        "Bedre grænsesætning og relationer"
+        "Dit tempo og dine behov",
+        "Individuelle forløb - ingen standardløsninger",
+        "Respekt for dine indre processer",
+        "Samarbejde hvor du er eksperten i dit liv",
+        "Støtte til at finde dine egne svar"
       ]
     }
   },
   "pricing": {
-    "headline": "Priser og booking", 
-    "subtitle": "Uanset om du ønsker hjælp til et konkret problem eller søger dybere forandring",
+    "headline": "Kom i gang",
+    "subtitle": "Tag det første skridt mod forandring - du behøver ikke være klar, det er nok at være nysgerrig",
     "whatsIncluded": "Hvad er inkluderet",
-    "noObligation": "Ingen forpligtelse eller binding påkrævet",
+    "noObligation": "Gratis og uforpligtende",
     "mostPopular": "Mest populære",
     "intro": {
       "title": "Gratis introsamtale",
-      "duration": "15 minutter",
-      "description": "Et kort telefonopkald eller Zoom-møde, hvor du kan stille spørgsmål og mærke, om kemien passer.",
+      "duration": "Uforpligtende",
+      "description": "Hvis du er nysgerrig, men i tvivl om hypnoterapi er det rette for dig, tilbyder jeg en gratis og uforpligtende introsamtale. Her har du mulighed for at stille spørgsmål, mærke efter og få en fornemmelse af, om Indblik er et sted, hvor du føler dig tryg.",
       "features": {
-        "conversation": "15-minutters samtale",
-        "questions": "Spørgsmål besvaret",
-        "chemistry": "Kemi-tjek",
-        "call": "Telefon eller Zoom-opkald"
+        "conversation": "Uforpligtende samtale",
+        "questions": "Stil spørgsmål og få svar",
+        "chemistry": "Mærk om kemien er der",
+        "call": "Afklar dine behov"
       }
     },
     "single": {
       "title": "Enkeltsession",
-      "price": "1.200 kr.",
-      "duration": "ca. 75 minutter",
-      "description": "En fokuseret, individuel session tilpasset dine aktuelle behov. God til et specifikt emne eller som første skridt i et længere forløb."
+      "price": "Fra 800 kr.",
+      "duration": "60-90 minutter",
+      "description": "En session starter med en samtale, hvor vi sammen mærker ind i, hvad der fylder for dig. Herefter guides du blidt ind i hypnose, hvis det føles rigtigt for dig."
     },
     "package": {
-      "title": "5-sessioners forløb – Indre forandringsrejse",
-      "price": "5.000 kr.",
-      "savings": "Du sparer 1.000 kr. ved at booke hele forløbet",
-      "description": "Et dybdegående forløb over fem sessioner, hvor vi arbejder med ubevidste mønstre, barndomsprægninger, følelsesmæssig forløsning og kontakt til dit autentiske selv.",
-      "note": "For dig der er klar til reel og varig forandring."
+      "title": "Forløbspakke",
+      "price": "Kontakt for pris",
+      "savings": "Skræddersyet forløb tilpasset dine behov",
+      "description": "For dem der ønsker at arbejde dybere med deres mønstre og skabe varig forandring. Vi laver sammen en plan, der passer til dit tempo og dine behov.",
+      "note": "Hypnoterapi hos Indblik er et samarbejde."
     },
     "booking": {
-      "title": "Booking & Betaling",
-      "location": "Sessionerne foregår i min klinik i Randers C eller online.",
-      "payment": "Betaling sker via MobilePay eller bankoverførsel.",
-      "confirmation": "Du modtager bekræftelse og praktisk info via mail."
+      "title": "Kontakt",
+      "location": "Sessionerne foregår i rolige omgivelser i Randers.",
+      "payment": "Du er velkommen til at tage kontakt, hvis du har spørgsmål eller ønsker at booke en samtale.",
+      "confirmation": "Du behøver ikke være klar. Det er nok at være nysgerrig."
     }
   },
   "faq": {
@@ -149,6 +150,6 @@
     "description": "Hypnoterapipraksis i Randers, Danmark"
   },
   "contact": {
-    "headline": "Klar til at begynde din transformation?"
+    "headline": "Indblik er et sted for ro, ærlighed og forandring i dit eget tempo"
   }
 }
