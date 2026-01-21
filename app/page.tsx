@@ -99,10 +99,10 @@ export default function HomePage() {
       duration: t('pricing.single.duration'),
       description: t('pricing.single.description'),
       features: [
-        'Individual session',
-        'Tailored to your needs',
-        'Professional guidance',
-        'Safe environment',
+        t('pricing.single.features.individual'),
+        t('pricing.single.features.tailored'),
+        t('pricing.single.features.guidance'),
+        t('pricing.single.features.environment'),
       ],
       cta: t('common.bookSession'),
       mostPopular: false,
@@ -114,10 +114,10 @@ export default function HomePage() {
       savings: t('pricing.package.savings'),
       description: t('pricing.package.description'),
       features: [
-        'Five comprehensive sessions',
-        'Deep transformation work',
-        'Spaced for integration',
-        'Ongoing support',
+        t('pricing.package.features.sessions'),
+        t('pricing.package.features.transformation'),
+        t('pricing.package.features.integration'),
+        t('pricing.package.features.support'),
       ],
       cta: t('common.bookSession'),
       mostPopular: true,
@@ -431,7 +431,7 @@ export default function HomePage() {
                     className="h-6 w-6 text-indigo-600 flex-shrink-0 mt-1"
                     aria-hidden="true"
                   />
-                  <h3 className="text-lg/8 font-semibold text-gray-900 min-h-[3.5rem] flex items-center">
+                  <h3 className="text-lg/8 font-semibold text-gray-900 min-h-[3.5rem]">
                     {category.title}
                   </h3>
                 </div>

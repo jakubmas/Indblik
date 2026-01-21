@@ -103,16 +103,28 @@
     },
     "single": {
       "title": "Single Session",
-      "price": "From 800 DKK",
+      "price": "1,100 DKK",
       "duration": "60-90 minutes",
-      "description": "A session starts with a conversation where we together sense what's present for you. Then you're gently guided into hypnosis, if it feels right for you."
+      "description": "A session starts with a conversation where we together sense what's present for you. Then you're gently guided into hypnosis, if it feels right for you.",
+      "features": {
+        "individual": "Individual session",
+        "tailored": "Tailored to your needs",
+        "guidance": "Professional guidance",
+        "environment": "Safe environment"
+      }
     },
     "package": {
       "title": "Session Package",
-      "price": "Contact for price",
+      "price": "5,000 DKK",
       "savings": "Customized process tailored to your needs",
       "description": "For those who wish to work deeper with their patterns and create lasting change. Together we create a plan that fits your pace and your needs.",
-      "note": "Hypnotherapy at Indblik is a collaboration."
+      "note": "Hypnotherapy at Indblik is a collaboration.",
+      "features": {
+        "sessions": "Five comprehensive sessions",
+        "transformation": "Deep transformation work",
+        "integration": "Spaced for integration",
+        "support": "Ongoing support"
+      }
     },
     "booking": {
       "title": "Contact",

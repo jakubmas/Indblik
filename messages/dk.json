@@ -103,16 +103,28 @@
     },
     "single": {
       "title": "Enkeltsession",
-      "price": "Fra 800 kr.",
+      "price": "1.100,-",
       "duration": "60-90 minutter",
-      "description": "En session starter med en samtale, hvor vi sammen mærker ind i, hvad der fylder for dig. Herefter guides du blidt ind i hypnose, hvis det føles rigtigt for dig."
+      "description": "En session starter med en samtale, hvor vi sammen mærker ind i, hvad der fylder for dig. Herefter guides du blidt ind i hypnose, hvis det føles rigtigt for dig.",
+      "features": {
+        "individual": "Individuel session",
+        "tailored": "Tilpasset dine behov",
+        "guidance": "Professionel vejledning",
+        "environment": "Trygt miljø"
+      }
     },
     "package": {
       "title": "Forløbspakke",
-      "price": "Kontakt for pris",
+      "price": "5.000,-",
       "savings": "Skræddersyet forløb tilpasset dine behov",
       "description": "For dem der ønsker at arbejde dybere med deres mønstre og skabe varig forandring. Vi laver sammen en plan, der passer til dit tempo og dine behov.",
-      "note": "Hypnoterapi hos Indblik er et samarbejde."
+      "note": "Hypnoterapi hos Indblik er et samarbejde.",
+      "features": {
+        "sessions": "Fem omfattende sessioner",
+        "transformation": "Dybt transformationsarbejde",
+        "integration": "Tid til integration",
+        "support": "Løbende støtte"
+      }
     },
     "booking": {
       "title": "Kontakt",
