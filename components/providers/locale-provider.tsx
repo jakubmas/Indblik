@@ -53,7 +53,7 @@ export function LocaleProvider({ children, messages }: LocaleProviderProps) {
       return urlLang;
     }
 
-    // If no URL parameter, it means default locale (English) was chosen
+    // If no URL parameter, it means default locale (Danish) was chosen
     // The middleware ensures non-default locales always have URL params
     return defaultLocale;
   }, [searchParams]);
